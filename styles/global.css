@@ -20,6 +20,7 @@ html{
     --grey-blue:#A1B2CD;
     --grey-medium:#D3D9E2;
     --grey-light:#E5EAF1;
+    --grey-medium: #eaecf2;
 
     /* 1rem = 16px = 100% (user agent) standard */
     /* all over the page now is 62.5% = 10px */
@@ -92,6 +93,17 @@ button.outlined, .button.outlined{
     border: .2rem solid var(--blue);
 }
 
+button.red, .button.red{
+    background: var(--red);
+    color: var(--white);
+}
+
+button.grey, .button.grey{
+    background: var(--grey-light);
+    color: var(--grey-dark);
+}
+
+/* ---------- HEADER ---------- */
 .content header{
     width: 80%;
     margin: 3.5rem auto;
